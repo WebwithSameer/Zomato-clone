@@ -6,6 +6,7 @@
 header {
     background-image: url(images/header.png);
     height: 600px;
+    background-size: cover;
 }
 
 .nav-bar {
@@ -489,6 +490,39 @@ hr{
     
     color: rgb(146, 144, 144);
 }
+
+
+/* @media only screen and (max-width: 1233px){
+
+    .collection h1{
+        margin-left: 42px;
+    }
+    .upperpara{
+        margin-left: -53px;
+    }
+    .Kolkata{
+        width: 918px;
+    }
+} */
+@media only screen and (max-width: 1904px){
+    .collection h1{
+        margin-left: 370px;
+    }
+    .flex{
+        justify-content: space-between;
+        margin: 0px 376px
+    }
+    .Kolkata{
+        width: 1590px;
+    }
+}
+@media only screen and (min-width:0px)and(max-width: 1600px ){
+    header{
+        width: 100vw;
+    }
+}
+    
+
  
 
 
